@@ -15,15 +15,19 @@ const About: React.FC = () => {
         Greece.
       </p>
       <p>
-        Programming enthusiast with experience in all phases of the development
-        life cycle.
-        <br /> This interest in CS was not affecting only my free time while I
-        was working as a Civil engineer <br /> for construction companies, but
-        also led me to the decision for a drastic career path change.
-        <br /> Being in the industry since then, I've worked for Omilia
+        Programming enthusiast with experience in all phases of the software
+        development life cycle.
+        <br /> Background in civil engineering with a strong interest in
+        computer science that eventually led to a career pivot.
+        <br /> Being in the tech industry since then, I've worked for Omilia
         (https://omilia.com/),
         <br /> Orfium (https://orfium.com), and Transifex
         (https://transifex.com).
+      </p>
+      <p>
+        Always looking into the opportunity to get involved in open-source
+        projects. In love with Go, Python and C, <br /> actively learning Rust.
+        Feel free to reach out if you need help with your projects.
       </p>
     </AboutWrapper>
   );
