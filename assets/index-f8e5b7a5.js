@@ -159,7 +159,7 @@ function print() { __p += __j.call(arguments, '') }
   margin-top: ${e=>e.marginY?"0.75rem":"0.25rem"};
   margin-bottom: 0.75rem;
   line-height: 1.5rem;
-`,lP=()=>{const{arg:e,clearHistory:n}=le.useContext(yi);return le.useEffect(()=>{e.length<1&&(n==null||n())},[]),e.length>0?q(Zd,{children:"Usage: clear"}):q(cm,{})},oP=()=>{const{history:e,rerender:n}=le.useContext(yi),r=Be.split(e[0]," ");return n&&r[0]==="email"&&r.length<=1&&window.open("mailto:contact@svaloumas.dev","_self"),q(Xd,{children:q("span",{children:"contact@svaloumas.dev"})})},Vg=({children:e})=>q(Xd,{children:e}),N1=_e.div`
+`,lP=()=>{const{arg:e,clearHistory:n}=le.useContext(yi);return le.useEffect(()=>{e.length<1&&(n==null||n())},[]),e.length>0?q(Zd,{children:"Usage: clear"}):q(cm,{})},oP=()=>{const{history:e,rerender:n}=le.useContext(yi),r=Be.split(e[0]," ");return n&&r[0]==="email"&&r.length<=1&&window.open("mailto:svaloumas@gmail.com","_self"),q(Xd,{children:q("span",{children:"svaloumas@gmail.com"})})},Vg=({children:e})=>q(Xd,{children:e}),N1=_e.div`
   margin-top: 0.25rem;
   margin-bottom: 0.75rem;
 `,z1=_e.div`
@@ -277,7 +277,7 @@ ____ ____ _| |___ _  _ _ __  __ _ ___
   color: ${({theme:e})=>{var n;return(n=e.colors)==null?void 0:n.primary}};
 `,RP=_e.span`
   color: ${({theme:e})=>{var n;return(n=e.colors)==null?void 0:n.secondary}};
-`,qg=()=>Re(PP,{children:[q(RP,{children:"guest"}),"@",q(TP,{children:"svaloumas.dev"}),":~$"]}),IP=_e.div`
+`,qg=()=>Re(PP,{children:[q(RP,{children:"guest"}),"@",q(TP,{children:"svaloumas.github.io"}),":~$"]}),IP=_e.div`
   padding: 1.25rem;
   padding-top: 0.75rem;
 
